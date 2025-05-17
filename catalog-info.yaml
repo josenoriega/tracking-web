@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: terroir-tracking-web
+  name: tracking-web
   description: Find where your bottle comes from
+  annotations:
+    github.com/project-slug: josenoriega/tracking-web
 spec:
-  type: website
-  lifecycle: production
-  owner: tracking-team
+  type: website         
+  lifecycle: production  
+  owner: user:default/josenoriega   
